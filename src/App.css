@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+html {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: black;
+  color: white;
+  padding: 0;
+  margin: 0;
+}  
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+  color: #852E43;
+  background-color: #FEA646;
+  border-radius: 10px;
+  border: 2px solid;
+  padding: 10px 20px;
+  font-weight: 700;
+  transition: transform .25s;
+}
+
+button:hover{
+  transform: scale(1.1);
+  transition: transform .25s;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+  -webkit-text-stroke: 2px orange;
+}
+
+p {
+  text-align: center;
+  background-color: #fff9;
+  color: black;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.app {
+  min-height: 100vh;
+  /* background-image: url('../assets/fondo1.png'); */
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  width: 320px;
+  margin: 0 auto; 
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  min-height: 95vh;
+}
+
+.phrasAuthor {
+  min-height: 65vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.phrase {
+  width: 280px;
+  height: 135px;
+  background: url('../public/assets/Imagen1.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
